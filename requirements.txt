@@ -1,1 +1,7 @@
 streamlit
+psycopg2-binary
+sqlparse
+google-generativeai
+langfuse
+python-dotenv
+pandas

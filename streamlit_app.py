@@ -64,7 +64,7 @@ st.sidebar.radio(
 # Main Card — Top Section
 # -----------------------
 with st.container():
-    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown('<div class="small-label">Welcome</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="small-label">Prompt</div>', unsafe_allow_html=True)
     prompt = st.text_input(
