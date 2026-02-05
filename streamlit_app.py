@@ -13,42 +13,7 @@ st.set_page_config(layout="wide")
 # -----------------------
 # Custom CSS — critical
 # -----------------------
-st.markdown("""
-<style>
 
-.block-container {
-    padding-top: 2rem;
-}
-
-.card {
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    padding: 20px;
-    background: white;
-}
-
-.small-label {
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 6px;
-}
-
-.stButton>button {
-    border-radius: 10px;
-    height: 42px;
-    font-weight: 600;
-}
-
-.upload-btn {
-    margin-top: 26px;
-}
-
-.footer-input input {
-    height: 42px;
-}
-
-</style>
-""", unsafe_allow_html=True)
 
 # -----------------------
 # Sidebar
@@ -64,7 +29,6 @@ st.sidebar.radio(
 # Main Card — Top Section
 # -----------------------
 with st.container():
-    st.markdown('<div class="small-label">Welcome</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="small-label">Prompt</div>', unsafe_allow_html=True)
     prompt = st.text_input(

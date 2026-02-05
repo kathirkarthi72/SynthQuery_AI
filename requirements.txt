@@ -5,3 +5,4 @@ google-generativeai
 langfuse
 python-dotenv
 pandas
+data_generator
